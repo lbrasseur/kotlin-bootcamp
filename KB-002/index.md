@@ -13,7 +13,7 @@ You can get a list of differences [here](https://kotlinlang.org/docs/reference/c
 You can access [Java binaries from Kotlin](https://kotlinlang.org/docs/reference/java-interop.html) and [vice-versa](https://kotlinlang.org/docs/reference/java-to-kotlin-interop.html).
 
 ## Common pitfalls
-* Kotlin's `Iterable` methods like `map` and `filter` creates a colleciton copy. If you want a pull approach (like Streams or Guave), you need conveting the `Iterable` to a `Sequence`by calling  `asSequence()`.
+* Kotlin's `Iterable` methods like `map` and `filter` creates a colleciton copy. If you want a pull approach (like Streams or Guava), you need converting the `Iterable` to a `Sequence`by calling  `asSequence()`.
   * [Iterable](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.collections/-iterable/)
   * [Sequence](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.sequences/-sequence/)
 
